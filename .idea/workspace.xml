@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f420d2c-4eec-4f53-8443-8b6b4c495ce4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/bootstrap/RecipeBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/RecipeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/UnitOfMeasureRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Recipe_App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_Recipe_App.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/bootstrap/RecipeBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/bootstrap/RecipeBootstrap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IndexController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Ingredient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Recipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,13 +26,14 @@
     <session id="313650468">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.113" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.open.time.73" value="1" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.73" value="2" />
           <entry key="project.open.time.82" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -38,39 +41,39 @@
           <entry key="LICENSE" value="1" />
           <entry key="class" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="2" />
-          <entry key="java" value="24" />
+          <entry key="html" value="3" />
+          <entry key="java" value="33" />
           <entry key="sql" value="2" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="HTML" value="2" />
-          <entry key="JAVA" value="24" />
+          <entry key="HTML" value="3" />
+          <entry key="JAVA" value="33" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="2" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="html" value="139" />
-          <entry key="java" value="3391" />
+          <entry key="html" value="678" />
+          <entry key="java" value="3911" />
           <entry key="sql" value="205" />
           <entry key="txt" value="61" />
-          <entry key="xml" value="7" />
+          <entry key="xml" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="139" />
-          <entry key="JAVA" value="3391" />
+          <entry key="HTML" value="678" />
+          <entry key="JAVA" value="3911" />
           <entry key="PLAIN_TEXT" value="67" />
           <entry key="SQL" value="205" />
-          <entry key="XML" value="7" />
+          <entry key="XML" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -83,42 +86,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Recipe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="39" column="67" lean-forward="true" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
+            <state relative-caret-position="1411">
+              <caret line="117" column="20" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2269#2270#0" expanded="true" />
+                <element signature="e#2303#2304#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/bootstrap/RecipeBootstrap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="201" column="96" lean-forward="true" selection-start-line="201" selection-start-column="96" selection-end-line="201" selection-end-column="96" />
+            <state relative-caret-position="467">
+              <caret line="217" selection-start-line="217" selection-end-line="217" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1146#1154#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/UnitOfMeasureRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+            <state relative-caret-position="357">
+              <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,8 +124,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
+            <state relative-caret-position="255">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1186#1187#0" expanded="true" />
+                <element signature="e#1236#1237#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Category.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,10 +157,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Difficulty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="374">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,10 +180,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Ingredient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="493">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
+                <element signature="e#1081#1082#0" expanded="true" />
+                <element signature="e#1114#1115#0" expanded="true" />
+                <element signature="e#1148#1149#0" expanded="true" />
+                <element signature="e#1182#1183#0" expanded="true" />
+                <element signature="e#1210#1211#0" expanded="true" />
+                <element signature="e#1264#1265#0" expanded="true" />
+                <element signature="e#1310#1311#0" expanded="true" />
+                <element signature="e#1358#1359#0" expanded="true" />
+                <element signature="e#1394#1395#0" expanded="true" />
+                <element signature="e#1459#1460#0" expanded="true" />
+                <element signature="e#1509#1510#0" expanded="true" />
+                <element signature="e#1553#1554#0" expanded="true" />
+                <element signature="e#1589#1590#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -195,23 +239,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Notes.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/UnitOfMeasure.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Difficulty.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Category.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/CategoryRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/UnitOfMeasureRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/RecipeRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/bootstrap/DevBootstrap.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/RecipeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Recipe.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Ingredient.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/bootstrap/RecipeBootstrap.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
       </list>
     </option>
   </component>
@@ -231,6 +276,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,6 +353,15 @@
               <item name="Spring_Recipe_App" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_Recipe_App" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -319,20 +376,18 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="LombokPluginEnabledInProject" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533432168066" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533496425723" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -374,6 +429,8 @@
       <workItem from="1533243894853" duration="1896000" />
       <workItem from="1533321470842" duration="7724000" />
       <workItem from="1533409019113" duration="11873000" />
+      <workItem from="1533469911838" duration="6690000" />
+      <workItem from="1533497493608" duration="4127000" />
     </task>
     <task id="LOCAL-00001" summary="Added OneToOne, OneToMany and ManyToMany entity relationships">
       <created>1533339925397</created>
@@ -386,7 +443,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24292000" />
+    <option name="totallyTimeSpent" value="35109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -449,37 +506,10 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/RecipeAppApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#342#343#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Difficulty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -494,6 +524,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/UnitOfMeasureRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -502,7 +546,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/RecipeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="102">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -510,41 +554,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/UnitOfMeasureRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/bootstrap/RecipeBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1236#1237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Difficulty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Ingredient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
+            <element signature="e#1553#1554#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Notes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Recipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="117" column="20" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2269#2270#0" expanded="true" />
+            <element signature="e#2303#2304#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -559,54 +666,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Recipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="39" column="67" lean-forward="true" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
+        <state relative-caret-position="357">
+          <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Ingredient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="374">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Notes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/bootstrap/RecipeBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="201" column="96" lean-forward="true" selection-start-line="201" selection-start-column="96" selection-end-line="201" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1146#1154#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
