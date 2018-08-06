@@ -1,16 +1,9 @@
 package netherwulf.springframework.recipeapp.controllers;
 
-import netherwulf.springframework.recipeapp.domain.Category;
-import netherwulf.springframework.recipeapp.domain.UnitOfMeasure;
-import netherwulf.springframework.recipeapp.repositories.CategoryRepository;
-import netherwulf.springframework.recipeapp.repositories.RecipeRepository;
-import netherwulf.springframework.recipeapp.repositories.UnitOfMeasureRepository;
 import netherwulf.springframework.recipeapp.services.RecipeService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import java.util.Optional;
 
 @Controller
 public class IndexController {
@@ -30,7 +23,7 @@ public class IndexController {
     }
 
     @RequestMapping({"", "/", "/index"})
-    public String getIndex(Model model){
+    public String getIndexPage(Model model) {
 
 //        Optional<Category> categoryOptional = categoryRepository.findByDescription("American");
 //        Optional<UnitOfMeasure> unitOfMeasureOptional = unitOfMeasureRepository.findByDescription("Teaspoon");
