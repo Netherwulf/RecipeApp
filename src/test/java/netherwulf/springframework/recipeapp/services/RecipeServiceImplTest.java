@@ -1,5 +1,7 @@
 package netherwulf.springframework.recipeapp.services;
 
+import netherwulf.springframework.recipeapp.converters.RecipeCommandToRecipe;
+import netherwulf.springframework.recipeapp.converters.RecipeToRecipeCommand;
 import netherwulf.springframework.recipeapp.domain.Recipe;
 import netherwulf.springframework.recipeapp.repositories.RecipeRepository;
 import org.junit.Before;
@@ -18,6 +20,8 @@ import static org.mockito.Mockito.*;
 public class RecipeServiceImplTest {
 
     RecipeServiceImpl recipeService;
+    RecipeToRecipeCommand recipeToRecipeCommand;
+    RecipeCommandToRecipe recipeCommandToRecipe;
 
     @Mock
     RecipeRepository recipeRepository;
@@ -26,7 +30,7 @@ public class RecipeServiceImplTest {
     public void setUp() {
         MockitoAnnotations.initMocks(this);
 
-        recipeService = new RecipeServiceImpl(recipeRepository);
+        recipeService = new RecipeServiceImpl(recipeRepository, recipeToRecipeCommand, recipeCommandToRecipe);
     }
 
     @Test
