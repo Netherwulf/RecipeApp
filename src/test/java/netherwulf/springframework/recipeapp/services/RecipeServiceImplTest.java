@@ -65,7 +65,6 @@ public class RecipeServiceImplTest {
 
     @Test
     public void testDeleteById() {
-
         //given
         Long idToDelete = 1L;
 
