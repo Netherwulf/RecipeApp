@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f420d2c-4eec-4f53-8443-8b6b4c495ce4" name="Default Changelist" comment="Added new ingredient adding, updating and unit and integration tests">
+    <list default="true" id="3f420d2c-4eec-4f53-8443-8b6b4c495ce4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IngredientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IngredientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/RecipeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/RecipeController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -95,7 +94,7 @@
           <entry key="java" value="168" />
           <entry key="properties" value="1" />
           <entry key="sql" value="1" />
-          <entry key="yml" value="2" />
+          <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -105,7 +104,7 @@
           <entry key="JAVA" value="168" />
           <entry key="Properties" value="1" />
           <entry key="SQL" value="1" />
-          <entry key="YAML" value="2" />
+          <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -113,7 +112,7 @@
           <entry key="html" value="2023" />
           <entry key="java" value="11202" />
           <entry key="properties" value="30" />
-          <entry key="txt" value="243" />
+          <entry key="txt" value="270" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
@@ -121,7 +120,7 @@
         <counts>
           <entry key="HTML" value="2023" />
           <entry key="JAVA" value="11202" />
-          <entry key="PLAIN_TEXT" value="243" />
+          <entry key="PLAIN_TEXT" value="270" />
           <entry key="Properties" value="30" />
           <entry key="XML" value="5" />
         </counts>
@@ -140,11 +139,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IngredientController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="612">
+              <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -170,11 +178,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/RecipeController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="748">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="e#524#525#0" expanded="true" />
                 <element signature="e#574#575#0" expanded="true" />
@@ -216,7 +224,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/IndexControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/repositories/UnitOfMeasureRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/repositories/UnitOfMeasureRepositoryIT.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -265,8 +272,9 @@
         <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/IngredientControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/IngredientServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/IngredientServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IngredientController.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/RecipeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IngredientController.java" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
       </list>
     </option>
   </component>
@@ -320,6 +328,11 @@
             <path>
               <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="RecipeApp" type="462c0819:PsiDirectoryNode" />
+              <item name=".circleci" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -342,42 +355,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecipeApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecipeApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecipeApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecipeApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
@@ -413,45 +390,6 @@
               <item name="recipe" type="462c0819:PsiDirectoryNode" />
               <item name="ingredient" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecipeApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecipeApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecipeApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecipeApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecipeApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -468,7 +406,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/kancl_000/Documents/roboczy/studia/Repozytoria Git/Spring_Recipe_App/src/test/java/netherwulf/springframework/recipeapp/services/RecipeServiceImplTest.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535221030031" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535221707584" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -499,7 +437,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RecipeAppApplication">
+  <component name="RunManager" selected="JUnit.All in Spring_Recipe_App">
     <configuration name="All in Spring_Recipe_App" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring_Recipe_App" />
       <option name="PACKAGE_NAME" value="" />
@@ -623,7 +561,7 @@
       <workItem from="1534926774560" duration="11163000" />
       <workItem from="1535032538612" duration="1870000" />
       <workItem from="1535134468528" duration="15485000" />
-      <workItem from="1535204137823" duration="7294000" />
+      <workItem from="1535204137823" duration="7970000" />
     </task>
     <task id="LOCAL-00001" summary="Added OneToOne, OneToMany and ManyToMany entity relationships">
       <created>1533339925397</created>
@@ -660,13 +598,17 @@
       <option name="project" value="LOCAL" />
       <updated>1535220485815</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Refactored method mappings">
+      <created>1535221078469</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1535221078469</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IngredientControllerTest_testNewIngredientForm - 2018.08.25 at 01h 50m 42s.xml">
-      <configuration name="IngredientControllerTest.testNewIngredientForm" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IngredientServiceImplTest - 2018.08.25 at 19h 18m 08s.xml">
       <configuration name="IngredientServiceImplTest" configurationId="JUnit" />
     </history-entry>
@@ -694,9 +636,12 @@
     <history-entry file="All_in_Spring_Recipe_App - 2018.08.25 at 20h 07m 29s.xml">
       <configuration name="All in Spring_Recipe_App" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_Spring_Recipe_App - 2018.08.25 at 20h 18m 48s.xml">
+      <configuration name="All in Spring_Recipe_App" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113816000" />
+    <option name="totallyTimeSpent" value="114492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -751,19 +696,13 @@
     <MESSAGE value="Added web tier entities representation, converters and tests" />
     <MESSAGE value="Added CRUD operations on Recipes with tests and listing all Ingredients of specified Recipe" />
     <MESSAGE value="Added new ingredient adding, updating and unit and integration tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new ingredient adding, updating and unit and integration tests" />
+    <MESSAGE value="Refactored method mappings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored method mappings" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/UnitOfMeasureToUnitOfMeasureCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="93" lean-forward="true" selection-start-line="10" selection-start-column="93" selection-end-line="10" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/NotesCommandToNotesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -1121,24 +1060,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/RecipeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IngredientController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="612">
+          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/RecipeController.java">
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
         </state>
       </provider>
     </entry>
