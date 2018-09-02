@@ -5,6 +5,7 @@ import netherwulf.springframework.recipeapp.commands.RecipeCommand;
 import netherwulf.springframework.recipeapp.converters.RecipeCommandToRecipe;
 import netherwulf.springframework.recipeapp.converters.RecipeToRecipeCommand;
 import netherwulf.springframework.recipeapp.domain.Recipe;
+import netherwulf.springframework.recipeapp.exceptions.NotFoundException;
 import netherwulf.springframework.recipeapp.repositories.RecipeRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -45,7 +46,8 @@ public class RecipeServiceImpl implements RecipeService {
         Optional<Recipe> recipeOptional = recipeRepository.findById(id);
 
         if (!recipeOptional.isPresent()) {
-            throw new RuntimeException("Recipe not found!");
+//            throw new RuntimeException("Recipe not found!");
+            throw new NotFoundException("Recipe not found!");
         }
 
         return recipeOptional.get();
