@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f420d2c-4eec-4f53-8443-8b6b4c495ce4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/exceptions/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/404error.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/RecipeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/RecipeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/RecipeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/RecipeControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/RecipeServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/RecipeServiceImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,8 +97,8 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="html" value="25" />
-          <entry key="java" value="212" />
+          <entry key="html" value="26" />
+          <entry key="java" value="213" />
           <entry key="properties" value="1" />
           <entry key="sql" value="1" />
           <entry key="xml" value="1" />
@@ -109,8 +108,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="HTML" value="25" />
-          <entry key="JAVA" value="212" />
+          <entry key="HTML" value="26" />
+          <entry key="JAVA" value="213" />
           <entry key="Properties" value="1" />
           <entry key="SQL" value="1" />
           <entry key="XML" value="1" />
@@ -120,17 +119,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="2302" />
-          <entry key="java" value="13780" />
+          <entry key="java" value="14056" />
           <entry key="properties" value="30" />
-          <entry key="txt" value="393" />
+          <entry key="txt" value="440" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="2299" />
-          <entry key="JAVA" value="13780" />
-          <entry key="PLAIN_TEXT" value="393" />
+          <entry key="JAVA" value="14056" />
+          <entry key="PLAIN_TEXT" value="440" />
           <entry key="Properties" value="30" />
           <entry key="ThymeleafExpressions" value="3" />
           <entry key="XML" value="5" />
@@ -150,17 +149,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/RecipeControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="173">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/RecipeServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="78" column="7" lean-forward="true" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/404error.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/RecipeServiceImplTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/RecipeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="79" column="7" lean-forward="true" selection-start-line="61" selection-start-column="6" selection-end-line="79" selection-end-column="7" />
+            <state relative-caret-position="232">
+              <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -217,9 +237,9 @@
       <list>
         <option value="Enum" />
         <option value="JUnit4 Test Class" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -236,7 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/NotesToNotesCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/RecipeCommandToRecipe.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/CategoryCommandToCategory.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/UnitOfMeasureCommandToUnitOfMeasure.java" />
@@ -269,7 +288,6 @@
         <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/IngredientControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/IngredientServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/IngredientServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/RecipeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IngredientController.java" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -284,9 +302,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/list.html" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/ImageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/RecipeControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/exceptions/NotFoundException.java" />
         <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/RecipeServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/404error.html" />
+        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/RecipeControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/RecipeController.java" />
       </list>
     </option>
   </component>
@@ -373,6 +393,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
               <item name="exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -398,6 +427,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
@@ -456,7 +493,7 @@
     <property name="SearchEverywhereHistoryKey" value="javax.xml.bind.JAXBException&#9;PSI&#9;JAVA://javax.xml.bind.JAXBException" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535917925170" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535918898739" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -487,7 +524,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in Spring_Recipe_App">
+  <component name="RunManager" selected="Spring Boot.RecipeAppApplication">
     <configuration name="All in Spring_Recipe_App" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring_Recipe_App" />
       <option name="PACKAGE_NAME" value="" />
@@ -618,7 +655,7 @@
       <workItem from="1535386331613" duration="675000" />
       <workItem from="1535478403724" duration="597000" />
       <workItem from="1535813342769" duration="731000" />
-      <workItem from="1535876683473" duration="4199000" />
+      <workItem from="1535876683473" duration="5130000" />
     </task>
     <task id="LOCAL-00001" summary="Added OneToOne, OneToMany and ManyToMany entity relationships">
       <created>1533339925397</created>
@@ -697,25 +734,17 @@
       <option name="project" value="LOCAL" />
       <updated>1535223762152</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added NotFoundException and 404 response status">
+      <created>1535918024363</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1535918024363</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ImageControllerTest_getImageForm - 2018.08.26 at 00h 08m 27s.xml">
-      <configuration name="ImageControllerTest.getImageForm" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Spring_Recipe_App - 2018.08.26 at 00h 27m 44s.xml">
-      <configuration name="All in Spring_Recipe_App" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Spring_Recipe_App - 2018.08.27 at 00h 06m 18s.xml">
-      <configuration name="All in Spring_Recipe_App" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Spring_Recipe_App - 2018.08.27 at 00h 13m 13s.xml">
-      <configuration name="All in Spring_Recipe_App" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecipeServiceImplTest_getRecipeByIdTestNotFound - 2018.09.02 at 21h 33m 19s.xml">
-      <configuration name="RecipeServiceImplTest.getRecipeByIdTestNotFound" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RecipeServiceImplTest_getRecipeByIdTestNotFound - 2018.09.02 at 21h 34m 14s.xml">
       <configuration name="RecipeServiceImplTest.getRecipeByIdTestNotFound" configurationId="JUnit" />
     </history-entry>
@@ -731,9 +760,24 @@
     <history-entry file="All_in_Spring_Recipe_App - 2018.09.02 at 21h 47m 05s.xml">
       <configuration name="All in Spring_Recipe_App" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_Spring_Recipe_App - 2018.09.02 at 21h 51m 50s.xml">
+      <configuration name="All in Spring_Recipe_App" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecipeControllerTest_testGetRecipeNotFound - 2018.09.02 at 22h 03m 15s.xml">
+      <configuration name="RecipeControllerTest.testGetRecipeNotFound" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecipeControllerTest_testGetRecipeNotFound - 2018.09.02 at 22h 04m 04s.xml">
+      <configuration name="RecipeControllerTest.testGetRecipeNotFound" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecipeControllerTest_testGetRecipeNotFound - 2018.09.02 at 22h 05m 44s.xml">
+      <configuration name="RecipeControllerTest.testGetRecipeNotFound" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Spring_Recipe_App - 2018.09.02 at 22h 06m 43s.xml">
+      <configuration name="All in Spring_Recipe_App" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136385000" />
+    <option name="totallyTimeSpent" value="137316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -793,19 +837,13 @@
     <MESSAGE value="Maven dependencies clean-up" />
     <MESSAGE value="Updated circleCI config" />
     <MESSAGE value="Updated Maven dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Maven dependencies" />
+    <MESSAGE value="Added NotFoundException and 404 response status" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added NotFoundException and 404 response status" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Notes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1072,13 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/RecipeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/ImageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="636">
@@ -1128,13 +1159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/RecipeControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/exceptions/NotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1161,7 +1185,31 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/RecipeServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
-          <caret line="79" column="7" lean-forward="true" selection-start-line="61" selection-start-column="6" selection-end-line="79" selection-end-column="7" />
+          <caret line="78" column="7" lean-forward="true" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/404error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/RecipeControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/RecipeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
         </state>
       </provider>
     </entry>
