@@ -1,8 +1,6 @@
 package netherwulf.springframework.recipeapp.converters;
 
 import netherwulf.springframework.recipeapp.commands.IngredientCommand;
-import netherwulf.springframework.recipeapp.converters.IngredientToIngredientCommand;
-import netherwulf.springframework.recipeapp.converters.UnitOfMeasureToUnitOfMeasureCommand;
 import netherwulf.springframework.recipeapp.domain.Ingredient;
 import netherwulf.springframework.recipeapp.domain.Recipe;
 import netherwulf.springframework.recipeapp.domain.UnitOfMeasure;
@@ -53,7 +51,7 @@ public class IngredientToIngredientCommandTest {
         //when
         IngredientCommand ingredientCommand = converter.convert(ingredient);
         //then
-        assertNull(ingredientCommand.getUnitOfMeasure());
+        assertNull(ingredientCommand.getUom());
         assertEquals(ID_VALUE, ingredientCommand.getId());
         assertEquals(AMOUNT, ingredientCommand.getAmount());
         assertEquals(DESCRIPTION, ingredientCommand.getDescription());
@@ -75,8 +73,8 @@ public class IngredientToIngredientCommandTest {
         IngredientCommand ingredientCommand = converter.convert(ingredient);
         //then
         assertEquals(ID_VALUE, ingredientCommand.getId());
-        assertNotNull(ingredientCommand.getUnitOfMeasure());
-        assertEquals(UOM_ID, ingredientCommand.getUnitOfMeasure().getId());
+        assertNotNull(ingredientCommand.getUom());
+        assertEquals(UOM_ID, ingredientCommand.getUom().getId());
         // assertEquals(RECIPE, ingredientCommand.get);
         assertEquals(AMOUNT, ingredientCommand.getAmount());
         assertEquals(DESCRIPTION, ingredientCommand.getDescription());

@@ -4,7 +4,6 @@ import netherwulf.springframework.recipeapp.commands.CategoryCommand;
 import netherwulf.springframework.recipeapp.commands.IngredientCommand;
 import netherwulf.springframework.recipeapp.commands.NotesCommand;
 import netherwulf.springframework.recipeapp.commands.RecipeCommand;
-import netherwulf.springframework.recipeapp.converters.*;
 import netherwulf.springframework.recipeapp.domain.Difficulty;
 import netherwulf.springframework.recipeapp.domain.Recipe;
 import org.junit.Before;

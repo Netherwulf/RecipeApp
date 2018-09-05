@@ -2,7 +2,6 @@ package netherwulf.springframework.recipeapp.converters;
 
 import netherwulf.springframework.recipeapp.commands.IngredientCommand;
 import netherwulf.springframework.recipeapp.commands.UnitOfMeasureCommand;
-import netherwulf.springframework.recipeapp.converters.IngredientCommandToIngredient;
 import netherwulf.springframework.recipeapp.domain.Ingredient;
 import netherwulf.springframework.recipeapp.domain.Recipe;
 import org.junit.Before;
@@ -46,7 +45,7 @@ public class IngredientCommandToIngredientTest {
         command.setDescription(DESCRIPTION);
         UnitOfMeasureCommand unitOfMeasureCommand = new UnitOfMeasureCommand();
         unitOfMeasureCommand.setId(UOM_ID);
-        command.setUnitOfMeasure(unitOfMeasureCommand);
+        command.setUom(unitOfMeasureCommand);
 
         //when
         Ingredient ingredient = converter.convert(command);
