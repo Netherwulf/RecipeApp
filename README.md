@@ -3,3 +3,8 @@
 [![codecov](https://codecov.io/gh/Netherwulf/RecipeApp/branch/master/graph/badge.svg)](https://codecov.io/gh/Netherwulf/RecipeApp)
 
 Web application written in Spring MVC to store culinary recipes
+
+DBMS used:
+* H2 (master branch)
+* MySQL (mysql-usage branch)
+* MongoDB (mongodb-usage branch)
