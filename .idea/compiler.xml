@@ -11,6 +11,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="RecipeApp_main" target="1.8" />
+      <module name="RecipeApp_test" target="1.8" />
       <module name="Spring_Recipe_App" target="1.8" />
     </bytecodeTargetLevel>
   </component>

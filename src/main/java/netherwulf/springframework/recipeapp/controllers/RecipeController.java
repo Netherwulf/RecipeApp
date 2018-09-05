@@ -1,9 +1,9 @@
 package netherwulf.springframework.recipeapp.controllers;
 
-import lombok.extern.slf4j.Slf4j;
 import netherwulf.springframework.recipeapp.commands.RecipeCommand;
 import netherwulf.springframework.recipeapp.exceptions.NotFoundException;
 import netherwulf.springframework.recipeapp.services.RecipeService;
+import org.slf4j.Logger;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,10 +13,10 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.validation.Valid;
 
-@Slf4j
 @Controller
 public class RecipeController {
 
+    private static final Logger log = org.slf4j.LoggerFactory.getLogger(RecipeController.class);
     private final RecipeService recipeService;
 
     private static final String RECIPE_RECIPEFORM_URL = "recipe/recipeform";
@@ -28,7 +28,7 @@ public class RecipeController {
     @GetMapping("/recipe/{id}/show")
     public String showById(@PathVariable String id, Model model) {
 
-        model.addAttribute("recipe", recipeService.findById(Long.valueOf(id)));
+        model.addAttribute("recipe", recipeService.findById(id));
 
         return "/recipe/show";
     }
@@ -44,7 +44,7 @@ public class RecipeController {
     @GetMapping("/recipe/{id}/update")
     public String updateRecipe(@PathVariable String id, Model model) {
 
-        model.addAttribute("recipe", recipeService.findCommandById(Long.valueOf(id)));
+        model.addAttribute("recipe", recipeService.findCommandById(id));
 
         return "/recipe/recipeform";
     }
@@ -69,7 +69,7 @@ public class RecipeController {
 
         log.debug("Deleting id: " + id);
 
-        recipeService.deleteById(Long.valueOf(id));
+        recipeService.deleteById(id);
         return "redirect:/";
     }
 

@@ -1,6 +1,5 @@
 package netherwulf.springframework.recipeapp.services;
 
-import lombok.extern.slf4j.Slf4j;
 import netherwulf.springframework.recipeapp.commands.IngredientCommand;
 import netherwulf.springframework.recipeapp.converters.IngredientCommandToIngredient;
 import netherwulf.springframework.recipeapp.converters.IngredientToIngredientCommand;
@@ -8,15 +7,16 @@ import netherwulf.springframework.recipeapp.domain.Ingredient;
 import netherwulf.springframework.recipeapp.domain.Recipe;
 import netherwulf.springframework.recipeapp.repositories.RecipeRepository;
 import netherwulf.springframework.recipeapp.repositories.UnitOfMeasureRepository;
+import org.slf4j.Logger;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Optional;
 
 @Service
-@Slf4j
 public class IngredientServiceImpl implements IngredientService {
 
+    private static final Logger log = org.slf4j.LoggerFactory.getLogger(IngredientServiceImpl.class);
     private final RecipeRepository recipeRepository;
     private final IngredientToIngredientCommand ingredientToIngredientCommand;
     private final IngredientCommandToIngredient ingredientCommandToIngredient;
@@ -30,7 +30,7 @@ public class IngredientServiceImpl implements IngredientService {
     }
 
     @Override
-    public IngredientCommand findByRecipeIdAndIngredientId(Long recipeId, Long ingredientId) {
+    public IngredientCommand findByRecipeIdAndIngredientId(String recipeId, String ingredientId) {
         Optional<Recipe> recipeOptional = recipeRepository.findById(recipeId);
 
         if (!recipeOptional.isPresent()) {
@@ -77,13 +77,13 @@ public class IngredientServiceImpl implements IngredientService {
                 Ingredient ingredientFound = ingredientOptional.get();
                 ingredientFound.setDescription(ingredientCommand.getDescription());
                 ingredientFound.setAmount(ingredientCommand.getAmount());
-                ingredientFound.setUnitOfMeasure(unitOfMeasureRepository
-                        .findById(ingredientCommand.getUnitOfMeasure().getId())
+                ingredientFound.setUom(unitOfMeasureRepository
+                        .findById(String.valueOf(ingredientCommand.getUnitOfMeasure().getId()))
                         .orElseThrow(() -> new RuntimeException("UOM not found")));
             } else {
                 //add new ingredient
                 Ingredient ingredient = ingredientCommandToIngredient.convert(ingredientCommand);
-                ingredient.setRecipe(recipe);
+//                ingredient.setRecipe(recipe);
                 recipe.addIngredient(ingredient);
             }
 
@@ -97,7 +97,7 @@ public class IngredientServiceImpl implements IngredientService {
                 savedIngredientOptional = savedRecipe.getIngredients().stream()
                         .filter(ingredient -> ingredient.getDescription().equals(ingredientCommand.getDescription()))
                         .filter(ingredient -> ingredient.getAmount().equals(ingredientCommand.getAmount()))
-                        .filter(ingredient -> ingredient.getUnitOfMeasure().getId().equals(ingredientCommand.getUnitOfMeasure().getId()))
+                        .filter(ingredient -> ingredient.getUom().getId().equals(ingredientCommand.getUnitOfMeasure().getId()))
                         .findFirst();
             }
 
@@ -108,9 +108,9 @@ public class IngredientServiceImpl implements IngredientService {
     }
 
     @Override
-    public void deleteByRecipeIdAndIngredientId(Long recipeId, Long ingredientId) {
+    public void deleteByRecipeIdAndIngredientId(String recipeId, String ingredientId) {
         log.debug("Deleting ingredient: " + recipeId + ":" + ingredientId);
-        Optional<Recipe> recipeOptional = recipeRepository.findById(recipeId);
+        Optional<Recipe> recipeOptional = recipeRepository.findById(String.valueOf(recipeId));
 
         if (!recipeOptional.isPresent()) {
             log.debug("Recipe not found id: " + recipeId);
@@ -127,7 +127,7 @@ public class IngredientServiceImpl implements IngredientService {
                 log.debug("Found ingredient");
 
                 Ingredient ingredientToDelete = ingredientOptional.get();
-                ingredientToDelete.setRecipe(null);
+//                ingredientToDelete.setRecipe(null);
 
                 recipe.getIngredients().remove(ingredientToDelete);
                 recipeRepository.save(recipe);

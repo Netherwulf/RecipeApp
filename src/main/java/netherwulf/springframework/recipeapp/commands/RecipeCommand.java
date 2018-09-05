@@ -1,8 +1,5 @@
 package netherwulf.springframework.recipeapp.commands;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
 import netherwulf.springframework.recipeapp.domain.Difficulty;
 import org.hibernate.validator.constraints.URL;
 
@@ -13,11 +10,8 @@ import javax.validation.constraints.Size;
 import java.util.HashSet;
 import java.util.Set;
 
-@Getter
-@Setter
-@NoArgsConstructor
 public class RecipeCommand {
-    private Long id;
+    private String id;
 
     @NotBlank
     @Size(min = 3, max = 255)
@@ -48,4 +42,111 @@ public class RecipeCommand {
     private Difficulty difficulty;
     private NotesCommand notes;
     private Set<CategoryCommand> categories = new HashSet<>();
+
+    public RecipeCommand() {
+    }
+
+    public String getId() {
+        return this.id;
+    }
+
+    public @NotBlank @Size(min = 3, max = 255) String getDescription() {
+        return this.description;
+    }
+
+    public @Min(1) @Max(999) Integer getPrepTime() {
+        return this.prepTime;
+    }
+
+    public @Min(1) @Max(999) Integer getCookTime() {
+        return this.cookTime;
+    }
+
+    public @Min(1) @Max(100) Integer getServings() {
+        return this.servings;
+    }
+
+    public String getSource() {
+        return this.source;
+    }
+
+    public @URL String getUrl() {
+        return this.url;
+    }
+
+    public @NotBlank String getDirections() {
+        return this.directions;
+    }
+
+    public Set<IngredientCommand> getIngredients() {
+        return this.ingredients;
+    }
+
+    public Byte[] getImage() {
+        return this.image;
+    }
+
+    public Difficulty getDifficulty() {
+        return this.difficulty;
+    }
+
+    public NotesCommand getNotes() {
+        return this.notes;
+    }
+
+    public Set<CategoryCommand> getCategories() {
+        return this.categories;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setDescription(@NotBlank @Size(min = 3, max = 255) String description) {
+        this.description = description;
+    }
+
+    public void setPrepTime(@Min(1) @Max(999) Integer prepTime) {
+        this.prepTime = prepTime;
+    }
+
+    public void setCookTime(@Min(1) @Max(999) Integer cookTime) {
+        this.cookTime = cookTime;
+    }
+
+    public void setServings(@Min(1) @Max(100) Integer servings) {
+        this.servings = servings;
+    }
+
+    public void setSource(String source) {
+        this.source = source;
+    }
+
+    public void setUrl(@URL String url) {
+        this.url = url;
+    }
+
+    public void setDirections(@NotBlank String directions) {
+        this.directions = directions;
+    }
+
+    public void setIngredients(Set<IngredientCommand> ingredients) {
+        this.ingredients = ingredients;
+    }
+
+    public void setImage(Byte[] image) {
+        this.image = image;
+    }
+
+    public void setDifficulty(Difficulty difficulty) {
+        this.difficulty = difficulty;
+    }
+
+    public void setNotes(NotesCommand notes) {
+        this.notes = notes;
+    }
+
+    public void setCategories(Set<CategoryCommand> categories) {
+        this.categories = categories;
+    }
 }

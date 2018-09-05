@@ -1,28 +1,25 @@
 package netherwulf.springframework.recipeapp.domain;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-@Entity
+@Document
 public class UnitOfMeasure {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private String id;
     private String description;
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
+    public String getId() {
+        return this.id;
     }
 
     public String getDescription() {
-        return description;
+        return this.description;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public void setDescription(String description) {

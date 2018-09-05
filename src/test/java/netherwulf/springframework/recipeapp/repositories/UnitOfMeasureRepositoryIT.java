@@ -1,7 +1,9 @@
 package netherwulf.springframework.recipeapp.repositories;
 
 import netherwulf.springframework.recipeapp.domain.UnitOfMeasure;
+import netherwulf.springframework.recipeapp.repositories.UnitOfMeasureRepository;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +14,10 @@ import java.util.Optional;
 
 import static org.junit.Assert.assertEquals;
 
+/**
+ * Created by jt on 6/17/17.
+ */
+@Ignore
 @RunWith(SpringRunner.class)
 @DataJpaTest
 public class UnitOfMeasureRepositoryIT {
@@ -20,13 +26,23 @@ public class UnitOfMeasureRepositoryIT {
     UnitOfMeasureRepository unitOfMeasureRepository;
 
     @Before
-    public void setUp() {
+    public void setUp() throws Exception {
     }
 
     @Test
-    public void findByDescription() {
+    public void findByDescription() throws Exception {
 
-        Optional<UnitOfMeasure> unitOfMeasureOptional = unitOfMeasureRepository.findByDescription("Teaspoon");
-        assertEquals("Teaspoon", unitOfMeasureOptional.get().getDescription());
+        Optional<UnitOfMeasure> uomOptional = unitOfMeasureRepository.findByDescription("Teaspoon");
+
+        assertEquals("Teaspoon", uomOptional.get().getDescription());
     }
+
+    @Test
+    public void findByDescriptionCup() throws Exception {
+
+        Optional<UnitOfMeasure> uomOptional = unitOfMeasureRepository.findByDescription("Cup");
+
+        assertEquals("Cup", uomOptional.get().getDescription());
+    }
+
 }

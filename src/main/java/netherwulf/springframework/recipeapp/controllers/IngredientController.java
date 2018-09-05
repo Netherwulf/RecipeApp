@@ -1,12 +1,12 @@
 package netherwulf.springframework.recipeapp.controllers;
 
-import lombok.extern.slf4j.Slf4j;
 import netherwulf.springframework.recipeapp.commands.IngredientCommand;
 import netherwulf.springframework.recipeapp.commands.RecipeCommand;
 import netherwulf.springframework.recipeapp.commands.UnitOfMeasureCommand;
 import netherwulf.springframework.recipeapp.services.IngredientService;
 import netherwulf.springframework.recipeapp.services.RecipeService;
 import netherwulf.springframework.recipeapp.services.UnitOfMeasureService;
+import org.slf4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
-@Slf4j
 @Controller
 public class IngredientController {
+    private static final Logger log = org.slf4j.LoggerFactory.getLogger(IngredientController.class);
     private final RecipeService recipeService;
     private final IngredientService ingredientService;
     private final UnitOfMeasureService unitOfMeasureService;
@@ -32,23 +32,23 @@ public class IngredientController {
         log.debug("Getting ingredient list for recipeId: " + recipeId);
 
         //usage of command object to avoid lazy load errors in Thymeleaf
-        model.addAttribute("recipe", recipeService.findCommandById(Long.valueOf(recipeId)));
+        model.addAttribute("recipe", recipeService.findCommandById(recipeId));
 
         return "/recipe/ingredient/list";
     }
 
     @GetMapping("/recipe/{recipeId}/ingredient/{ingredientId}/show")
     public String showRecipeIngredient(@PathVariable String recipeId, @PathVariable String ingredientId, Model model) {
-        model.addAttribute("ingredient", ingredientService.findByRecipeIdAndIngredientId(Long.valueOf(recipeId), Long.valueOf(ingredientId)));
+        model.addAttribute("ingredient", ingredientService.findByRecipeIdAndIngredientId(recipeId, ingredientId));
         return "/recipe/ingredient/show";
     }
 
     @GetMapping("/recipe/{recipeId}/ingredient/new")
     public String newIngredient(@PathVariable String recipeId, Model model) {
-        RecipeCommand recipeCommand = recipeService.findCommandById(Long.valueOf(recipeId));
+        RecipeCommand recipeCommand = recipeService.findCommandById(recipeId);
 
         IngredientCommand ingredientCommand = new IngredientCommand();
-        ingredientCommand.setRecipeId(Long.valueOf(recipeId));
+        ingredientCommand.setRecipeId(recipeId);
 
         model.addAttribute("ingredient", ingredientCommand);
 
@@ -61,7 +61,7 @@ public class IngredientController {
 
     @GetMapping("/recipe/{recipeId}/ingredient/{ingredientId}/update")
     public String updateRecipeIngredient(@PathVariable String recipeId, @PathVariable String ingredientId, Model model) {
-        model.addAttribute("ingredient", ingredientService.findByRecipeIdAndIngredientId(Long.valueOf(recipeId), Long.valueOf(ingredientId)));
+        model.addAttribute("ingredient", ingredientService.findByRecipeIdAndIngredientId(recipeId, ingredientId));
 
         model.addAttribute("uomList", unitOfMeasureService.listAllUoms());
 
@@ -82,7 +82,7 @@ public class IngredientController {
     public String deleteByRecipeIdAndIngredientId(@PathVariable String recipeId, @PathVariable String ingredientId) {
         log.debug("Deleting recipe id: " + recipeId + ", ingredient id: " + ingredientId);
 
-        ingredientService.deleteByRecipeIdAndIngredientId(Long.valueOf(recipeId), Long.valueOf(ingredientId));
+        ingredientService.deleteByRecipeIdAndIngredientId(recipeId, ingredientId);
 
         return "redirect:/recipe/" + recipeId + "/ingredients";
     }

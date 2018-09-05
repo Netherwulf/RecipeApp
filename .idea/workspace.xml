@@ -2,11 +2,100 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f420d2c-4eec-4f53-8443-8b6b4c495ce4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codecov.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_Recipe_App.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/RecipeAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/RecipeAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/bootstrap/RecipeBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/bootstrap/RecipeBootstrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/CategoryCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/CategoryCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/IngredientCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/IngredientCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/NotesCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/NotesCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/RecipeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/RecipeCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/UnitOfMeasureCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/UnitOfMeasureCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/ControllerExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/ControllerExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/ImageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IngredientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IngredientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/RecipeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/RecipeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/CategoryCommandToCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/CategoryCommandToCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/CategoryToCategoryCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/CategoryToCategoryCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/IngredientCommandToIngredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/IngredientCommandToIngredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/IngredientToIngredientCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/IngredientToIngredientCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/NotesCommandToNotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/NotesCommandToNotes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/NotesToNotesCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/NotesToNotesCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/RecipeCommandToRecipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/RecipeCommandToRecipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/RecipeToRecipeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/RecipeToRecipeCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/UnitOfMeasureCommandToUnitOfMeasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/UnitOfMeasureCommandToUnitOfMeasure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/UnitOfMeasureToUnitOfMeasureCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/UnitOfMeasureToUnitOfMeasureCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Difficulty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Difficulty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Notes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Notes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Recipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/UnitOfMeasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/UnitOfMeasure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/exceptions/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/exceptions/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/RecipeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/RecipeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/UnitOfMeasureRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/UnitOfMeasureRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/ImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/ImageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/ImageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/ImageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/IngredientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/IngredientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/IngredientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/IngredientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/UnitOfMeasureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/UnitOfMeasureService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/UnitOfMeasureServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/UnitOfMeasureServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/400error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/400error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/404error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/404error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/recipe/imageuploadform.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/recipe/imageuploadform.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/ingredientform.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/ingredientform.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/recipe/recipeform.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/recipe/recipeform.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/recipe/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/recipe/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scripts/configure-mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scripts/configure-mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/RecipeAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/RecipeAppApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/ImageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/ImageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/IndexControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/IndexControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/IngredientControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/IngredientControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/RecipeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/RecipeControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/CategoryCommandToCategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/CategoryCommandToCategoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/CategoryToCategoryCommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/CategoryToCategoryCommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/IngredientCommandToIngredientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/IngredientCommandToIngredientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/IngredientToIngredientCommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/IngredientToIngredientCommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/NotesCommandToNotesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/NotesCommandToNotesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/NotesToNotesCommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/NotesToNotesCommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/RecipeCommandToRecipeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/RecipeCommandToRecipeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/RecipeToRecipeCommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/RecipeToRecipeCommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/UnitOfMeasureCommandToUnitOfMeasureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/UnitOfMeasureCommandToUnitOfMeasureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/UnitOfMeasureToUnitOfMeasureCommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/UnitOfMeasureToUnitOfMeasureCommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/domain/CategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/domain/CategoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/repositories/UnitOfMeasureRepositoryIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/repositories/UnitOfMeasureRepositoryIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/ImageServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/ImageServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/IngredientServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/IngredientServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/RecipeServiceImplT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/RecipeServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/RecipeServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/UnitOfMeasureServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/UnitOfMeasureServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +115,18 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="313650468">
@@ -89,52 +190,61 @@
     <session id="37146507">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.24" value="4" />
+          <entry key="project.open.time.24" value="5" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.60" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="html" value="29" />
-          <entry key="java" value="219" />
-          <entry key="properties" value="5" />
-          <entry key="sql" value="3" />
+          <entry key="gradle" value="5" />
+          <entry key="html" value="46" />
+          <entry key="java" value="640" />
+          <entry key="jpg" value="1" />
+          <entry key="properties" value="14" />
+          <entry key="sql" value="6" />
           <entry key="xml" value="2" />
-          <entry key="yml" value="6" />
+          <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="HTML" value="29" />
-          <entry key="JAVA" value="219" />
-          <entry key="Properties" value="5" />
-          <entry key="SQL" value="2" />
+          <entry key="Groovy" value="5" />
+          <entry key="HTML" value="46" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="640" />
+          <entry key="Properties" value="14" />
+          <entry key="SQL" value="5" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="2" />
-          <entry key="YAML" value="6" />
+          <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2479" />
-          <entry key="java" value="15172" />
-          <entry key="properties" value="602" />
+          <entry key="html" value="2490" />
+          <entry key="java" value="16045" />
+          <entry key="properties" value="658" />
           <entry key="sql" value="37" />
           <entry key="txt" value="734" />
           <entry key="xml" value="6" />
@@ -143,10 +253,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2476" />
-          <entry key="JAVA" value="15172" />
+          <entry key="HTML" value="2487" />
+          <entry key="JAVA" value="16045" />
           <entry key="PLAIN_TEXT" value="734" />
-          <entry key="Properties" value="602" />
+          <entry key="Properties" value="658" />
           <entry key="SQL" value="37" />
           <entry key="ThymeleafExpressions" value="3" />
           <entry key="XML" value="6" />
@@ -165,95 +275,113 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="40" selection-start-column="40" selection-end-column="40" />
-            </state>
-          </provider>
-          <provider editor-type-id="ResourceBundle" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scripts/configure-mysql.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            <state relative-caret-position="-289">
+              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/IngredientServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+            <state relative-caret-position="219">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+            <state relative-caret-position="406">
+              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2566#2567#0" expanded="true" />
+                <element signature="e#2613#2614#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/RecipeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/IngredientControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="110" selection-start-line="110" selection-end-line="110" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/codecov.yml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/RecipeControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="191">
+              <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/recipeform.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-            </state>
-          </provider>
-          <provider editor-type-id="ResourceBundle" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/messages_pl_PL.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="35" selection-start-column="35" selection-end-column="35" />
-            </state>
-          </provider>
-          <provider editor-type-id="ResourceBundle" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en_GB.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="35" selection-start-column="35" selection-end-column="35" />
-            </state>
-          </provider>
-          <provider editor-type-id="ResourceBundle" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/RecipeAppApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="-2805">
+              <folding>
+                <element signature="e#2#20#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/bootstrap/RecipeBootstrap.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="408">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/show.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="47" column="100" selection-start-line="47" selection-start-column="100" selection-end-line="47" selection-end-column="100" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IngredientController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="86" column="26" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -276,65 +404,439 @@
       <find>uom</find>
       <find>javax.xml.bind.JAXBException</find>
       <find>JAXBException</find>
+      <find>guru.springframework.</find>
+      <find>log</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="C:\Users\kancl\.gradle\wrapper\dists\gradle-4.10-bin\bg6py687nqv2mbe6e1hdtk57h\gradle-4.10" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4.10" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="RecipeApp" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="RecipeApp" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'RecipeApp'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Verifies code coverage metrics based on specified rules for the test task." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jacocoTestCoverageVerification" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles an executable jar archive containing the main classes and their dependencies." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'RecipeApp'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'RecipeApp'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in root project 'RecipeApp'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'RecipeApp'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'RecipeApp'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'RecipeApp'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'RecipeApp'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a Spring Boot application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'RecipeApp'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates code coverage report for the test task." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jacocoTestReport" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'RecipeApp'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3072193935246" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3726642360" />
+        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="1741342742" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.0.0.RELEASE/d88527da7e6f0c0413cb3aaa0b40b8fd5935078f/spring-boot-gradle-plugin-2.0.0.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.0.0.RELEASE/965442c239a8bab04d703a20fbe5ca06662932cb/spring-boot-loader-tools-2.0.0.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.4.RELEASE/f56e13eea5c5d3640efb34dc0f55b1369000fe32/dependency-management-plugin-1.0.4.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.4.RELEASE/4c83662d0a602b46635de6562750d44c397aad41/spring-core-5.0.4.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.14/43a23e357fa7b187c261520914c0b001ea1a62a2/commons-compress-1.14-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.4.RELEASE/1d86d46692a78817d638e5a9e524400a8db13c34/spring-jcl-5.0.4.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.0.0.RELEASE/2383b6249166ace67896b030dbedd04a4c5f9e0a/spring-boot-gradle-plugin-2.0.0.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.0.0.RELEASE/4028160dac97d34f0851f3aa9b87a0c3877d630a/spring-boot-loader-tools-2.0.0.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.4.RELEASE/f5b1df47ed5f708faa4d2fe0a71eb7fd36e11696/dependency-management-plugin-1.0.4.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.4.RELEASE/2221a957b5561a34f044350ba4e30ef5870254a3/spring-core-5.0.4.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.14/7b18320d668ab080758bf5383d6d8fcf750babce/commons-compress-1.14.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.4.RELEASE/3053e2bad0a18571bdbb9596ce51f9d458f5934f/spring-jcl-5.0.4.RELEASE.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="RecipeApp" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/ant-1.9.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/ant-launcher-1.9.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-api-metadata-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-base-services-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-base-services-groovy-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-build-cache-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-build-option-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-cli-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-core-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-core-api-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-docs-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-installation-beacon-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-jvm-services-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-kotlin-dsl-1.0-rc-3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-kotlin-dsl-provider-plugins-1.0-rc-3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-kotlin-dsl-tooling-builders-1.0-rc-3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-kotlin-dsl-tooling-models-1.0-rc-3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-launcher-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-logging-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-messaging-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-model-core-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-model-groovy-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-native-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-persistent-cache-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-process-services-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-resources-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-runtime-api-info-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-tooling-api-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/gradle-wrapper-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/groovy-all-2.4.15.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-announce-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-antlr-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-build-cache-http-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-build-comparison-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-build-init-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-code-quality-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-composite-builds-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-dependency-management-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-diagnostics-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-ear-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-ide-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-ide-native-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-ide-play-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-ivy-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-jacoco-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-javascript-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-language-groovy-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-language-java-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-language-jvm-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-language-native-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-language-scala-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-maven-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-osgi-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-platform-base-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-platform-jvm-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-platform-native-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-platform-play-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-plugin-development-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-plugin-use-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-plugins-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-publish-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-reporting-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-resources-gcs-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-resources-http-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-resources-s3-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-resources-sftp-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-scala-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-signing-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-test-kit-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-testing-base-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-testing-junit-platform-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-testing-jvm-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-testing-native-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-tooling-api-builders-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-tooling-native-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-version-control-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/gradle-workers-4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-bin/bg6py687nqv2mbe6e1hdtk57h/gradle-4.10/lib/plugins/ivy-2.2.0.jar" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/RecipeCommandToRecipeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/RecipeToRecipeCommandTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/UnitOfMeasureCommandToUnitOfMeasureTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/domain/CategoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/UnitOfMeasureServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/CategoryRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/UnitOfMeasureRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/ImageServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/ImageServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/RecipeAppApplicationTests.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/ControllerExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/ImageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/bootstrap/RecipeBootstrap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/UnitOfMeasure.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Category.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Notes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Recipe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Ingredient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/IngredientService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/IngredientServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/RecipeCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/CategoryCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/NotesCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/UnitOfMeasureCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/IngredientCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/UnitOfMeasureToUnitOfMeasureCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/CategoryToCategoryCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/IngredientToIngredientCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/NotesToNotesCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/RecipeToRecipeCommand.java" />
+        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/CategoryCommandToCategoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/IngredientCommandToIngredientTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/IngredientToIngredientCommandTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/NotesCommandToNotesTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/UnitOfMeasureToUnitOfMeasureCommandTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/NotesCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Recipe.java" />
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/RecipeServiceImplT.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/IngredientCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/IngredientToIngredientCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/show.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/ingredientform.html" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/UnitOfMeasureService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/UnitOfMeasureServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/UnitOfMeasureServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/IngredientService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/IngredientControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/RecipeCommandToRecipeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/UnitOfMeasureCommandToUnitOfMeasureTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/IngredientServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/IngredientServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IngredientController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/recipe/imageuploadform.html" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/ImageService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/ImageServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/ImageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/RecipeToRecipeCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/recipe/show.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/list.html" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/ImageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/exceptions/NotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/RecipeServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/404error.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/400error.html" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/ControllerExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/ImageControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/RecipeCommand.java" />
-        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/RecipeControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/RecipeServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/RecipeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/recipe/show.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/show.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/list.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/ingredientform.html" />
         <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/RecipeController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/recipe/recipeform.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages_pl_PL.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages_en_GB.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
-        <option value="$PROJECT_DIR$/src/main/scripts/configure-mysql.sql" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/.circleci/config.yml" />
-        <option value="$PROJECT_DIR$/codecov.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IngredientController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/IngredientControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/RecipeControllerTest.java" />
       </list>
     </option>
   </component>
@@ -370,74 +872,226 @@
     <option name="width" value="974" />
     <option name="height" value="1057" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecipeApp" type="462c0819:PsiDirectoryNode" />
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecipeApp" type="462c0819:PsiDirectoryNode" />
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name=".circleci" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecipeApp" type="462c0819:PsiDirectoryNode" />
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecipeApp" type="462c0819:PsiDirectoryNode" />
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecipeApp" type="462c0819:PsiDirectoryNode" />
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="recipe-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecipeApp" type="462c0819:PsiDirectoryNode" />
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
+              <item name="converters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="recipe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="ingredient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
+              <item name="converters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecipeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeapp" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="LombokPluginEnabledInProject" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="javax.xml.bind.JAXBException&#9;PSI&#9;JAVA://javax.xml.bind.JAXBException" />
+    <property name="SearchEverywhereHistoryKey" value="Long&#9;PSI&#9;JAVA://netherwulf.springframework.recipeapp.converters.UnitOfMeasureCommandToUnitOfMeasureTest#LONG_VALUE&#10;javax.xml.bind.JAXBException&#9;PSI&#9;JAVA://javax.xml.bind.JAXBException" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536003272965" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536111255675" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -451,6 +1105,11 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -461,34 +1120,19 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.10119048" />
   </component>
-  <component name="RunManager" selected="Spring Boot.RecipeAppApplication">
-    <configuration name="All in Spring_Recipe_App" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring_Recipe_App" />
+  <component name="RunManager" selected="JUnit.All in RecipeApp_test">
+    <configuration name="All in RecipeApp_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RecipeApp_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImageControllerTest.testGetImageFormatNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring_Recipe_App" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="netherwulf.springframework.recipeapp.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="netherwulf.springframework.recipeapp.controllers" />
-      <option name="MAIN_CLASS_NAME" value="netherwulf.springframework.recipeapp.controllers.ImageControllerTest" />
-      <option name="METHOD_NAME" value="testGetImageFormatNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecipeControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring_Recipe_App" />
+    <configuration name="RecipeControllerTest.testGetRecipe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RecipeApp_test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="netherwulf.springframework.recipeapp.controllers.*" />
@@ -497,42 +1141,30 @@
       </extension>
       <option name="PACKAGE_NAME" value="netherwulf.springframework.recipeapp.controllers" />
       <option name="MAIN_CLASS_NAME" value="netherwulf.springframework.recipeapp.controllers.RecipeControllerTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecipeControllerTest.testPostNewRecipeValidationFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring_Recipe_App" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="netherwulf.springframework.recipeapp.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="netherwulf.springframework.recipeapp.controllers" />
-      <option name="MAIN_CLASS_NAME" value="netherwulf.springframework.recipeapp.controllers.RecipeControllerTest" />
-      <option name="METHOD_NAME" value="testPostNewRecipeValidationFail" />
+      <option name="METHOD_NAME" value="testGetRecipe" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="netherwulf.springframework.recipeapp.controllers in Spring_Recipe_App" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring_Recipe_App" />
+    <configuration name="RecipeServiceImplTest.getRecipeCommandByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RecipeApp_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netherwulf.springframework.recipeapp.controllers.*" />
+          <option name="PATTERN" value="netherwulf.springframework.recipeapp.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="netherwulf.springframework.recipeapp.controllers" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="netherwulf.springframework.recipeapp.services" />
+      <option name="MAIN_CLASS_NAME" value="netherwulf.springframework.recipeapp.services.RecipeServiceImplTest" />
+      <option name="METHOD_NAME" value="getRecipeCommandByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="RecipeAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="Spring_Recipe_App" />
+      <module name="RecipeApp_main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="netherwulf.springframework.recipeapp.RecipeAppApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -541,19 +1173,15 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.RecipeAppApplication" />
-      <item itemvalue="JUnit.All in Spring_Recipe_App" />
-      <item itemvalue="JUnit.ImageControllerTest.testGetImageFormatNumber" />
-      <item itemvalue="JUnit.netherwulf.springframework.recipeapp.controllers in Spring_Recipe_App" />
-      <item itemvalue="JUnit.RecipeControllerTest.testPostNewRecipeValidationFail" />
-      <item itemvalue="JUnit.RecipeControllerTest" />
+      <item itemvalue="JUnit.All in RecipeApp_test" />
+      <item itemvalue="JUnit.RecipeControllerTest.testGetRecipe" />
+      <item itemvalue="JUnit.RecipeServiceImplTest.getRecipeCommandByIdTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RecipeControllerTest" />
-        <item itemvalue="JUnit.RecipeControllerTest.testPostNewRecipeValidationFail" />
-        <item itemvalue="JUnit.netherwulf.springframework.recipeapp.controllers in Spring_Recipe_App" />
-        <item itemvalue="JUnit.ImageControllerTest.testGetImageFormatNumber" />
-        <item itemvalue="JUnit.All in Spring_Recipe_App" />
+        <item itemvalue="JUnit.All in RecipeApp_test" />
+        <item itemvalue="JUnit.RecipeServiceImplTest.getRecipeCommandByIdTest" />
+        <item itemvalue="JUnit.RecipeControllerTest.testGetRecipe" />
       </list>
     </recent_temporary>
   </component>
@@ -593,6 +1221,13 @@
       <workItem from="1535813342769" duration="731000" />
       <workItem from="1535876683473" duration="17007000" />
       <workItem from="1535967694448" duration="4581000" />
+      <workItem from="1536091979321" duration="1106000" />
+      <workItem from="1536093267858" duration="656000" />
+      <workItem from="1536093969603" duration="1702000" />
+      <workItem from="1536095682340" duration="80000" />
+      <workItem from="1536095845260" duration="4456000" />
+      <workItem from="1536100393758" duration="337000" />
+      <workItem from="1536100827551" duration="10136000" />
     </task>
     <task id="LOCAL-00001" summary="Added OneToOne, OneToMany and ManyToMany entity relationships">
       <created>1533339925397</created>
@@ -731,45 +1366,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ImageControllerTest_testGetImageFormatNumber - 2018.09.02 at 22h 51m 17s.xml">
-      <configuration name="ImageControllerTest.testGetImageFormatNumber" configurationId="JUnit" />
+    <history-entry file="All_in_RecipeApp_test - 2018.09.05 at 02h 32m 48s.xml">
+      <configuration name="All in RecipeApp_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="netherwulf_springframework_recipeapp_controllers_in_Spring_Recipe_App - 2018.09.02 at 22h 51m 34s.xml">
-      <configuration name="netherwulf.springframework.recipeapp.controllers in Spring_Recipe_App" configurationId="JUnit" />
+    <history-entry file="All_in_RecipeApp_test - 2018.09.05 at 02h 34m 27s.xml">
+      <configuration name="All in RecipeApp_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="netherwulf_springframework_recipeapp_controllers_in_Spring_Recipe_App - 2018.09.02 at 22h 52m 57s.xml">
-      <configuration name="netherwulf.springframework.recipeapp.controllers in Spring_Recipe_App" configurationId="JUnit" />
+    <history-entry file="All_in_RecipeApp_test - 2018.09.05 at 02h 34m 47s.xml">
+      <configuration name="All in RecipeApp_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RecipeControllerTest_testPostNewRecipeValidationFail - 2018.09.02 at 23h 34m 01s.xml">
-      <configuration name="RecipeControllerTest.testPostNewRecipeValidationFail" configurationId="JUnit" />
+    <history-entry file="All_in_RecipeApp_test - 2018.09.05 at 02h 35m 00s.xml">
+      <configuration name="All in RecipeApp_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RecipeControllerTest - 2018.09.02 at 23h 35m 31s.xml">
-      <configuration name="RecipeControllerTest" configurationId="JUnit" />
+    <history-entry file="RecipeControllerTest_testGetRecipe - 2018.09.05 at 02h 35m 48s.xml">
+      <configuration name="RecipeControllerTest.testGetRecipe" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RecipeControllerTest_testPostNewRecipeValidationFail - 2018.09.02 at 23h 36m 26s.xml">
-      <configuration name="RecipeControllerTest.testPostNewRecipeValidationFail" configurationId="JUnit" />
+    <history-entry file="RecipeControllerTest_testGetRecipe - 2018.09.05 at 02h 36m 05s.xml">
+      <configuration name="RecipeControllerTest.testGetRecipe" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RecipeControllerTest_testPostNewRecipeValidationFail - 2018.09.02 at 23h 40m 17s.xml">
-      <configuration name="RecipeControllerTest.testPostNewRecipeValidationFail" configurationId="JUnit" />
+    <history-entry file="RecipeServiceImplTest_getRecipeCommandByIdTest - 2018.09.05 at 02h 38m 16s.xml">
+      <configuration name="RecipeServiceImplTest.getRecipeCommandByIdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RecipeControllerTest - 2018.09.02 at 23h 45m 49s.xml">
-      <configuration name="RecipeControllerTest" configurationId="JUnit" />
+    <history-entry file="RecipeServiceImplTest_getRecipeCommandByIdTest - 2018.09.05 at 02h 38m 42s.xml">
+      <configuration name="RecipeServiceImplTest.getRecipeCommandByIdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RecipeControllerTest - 2018.09.02 at 23h 47m 55s.xml">
-      <configuration name="RecipeControllerTest" configurationId="JUnit" />
+    <history-entry file="All_in_RecipeApp_test - 2018.09.05 at 03h 33m 03s.xml">
+      <configuration name="All in RecipeApp_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RecipeControllerTest - 2018.09.02 at 23h 51m 26s.xml">
-      <configuration name="RecipeControllerTest" configurationId="JUnit" />
+    <history-entry file="All_in_RecipeApp_test - 2018.09.05 at 03h 34m 17s.xml">
+      <configuration name="All in RecipeApp_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153774000" />
+    <option name="totallyTimeSpent" value="172247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17803837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -786,11 +1421,13 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.44936034" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286334" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.329718" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.329718" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.5506396" weight="0.40130153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -802,6 +1439,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info anchor="right" id="TCPMON" order="10" />
+      <window_info anchor="right" id="Gradle" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -837,122 +1475,194 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/web/bind/annotation/PostMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.xml.bind/javax/xml/bind/JAXBException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/IndexControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/CategoryCommandToCategoryTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.management/sun/management/counter/LongArrayCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/domain/CategoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/RecipeAppApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/UnitOfMeasureToUnitOfMeasureCommandTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/UnitOfMeasureServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="204">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/UnitOfMeasureCommandToUnitOfMeasureTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/RecipeCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        <state relative-caret-position="1445">
+          <caret line="93" column="26" lean-forward="true" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+          <folding>
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#1454#1455#0" expanded="true" />
+            <element signature="e#1490#1491#0" expanded="true" />
+            <element signature="e#1523#1524#0" expanded="true" />
+            <element signature="e#1557#1558#0" expanded="true" />
+            <element signature="e#1592#1593#0" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#1762#1763#0" expanded="true" />
+            <element signature="e#1801#1802#0" expanded="true" />
+            <element signature="e#1833#1834#0" expanded="true" />
+            <element signature="e#1866#1867#0" expanded="true" />
+            <element signature="e#1907#1908#0" expanded="true" />
+            <element signature="e#1945#1946#0" expanded="true" />
+            <element signature="e#1983#1984#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
+            <element signature="e#2067#2068#0" expanded="true" />
+            <element signature="e#2105#2106#0" expanded="true" />
+            <element signature="e#2139#2140#0" expanded="true" />
+            <element signature="e#2167#2168#0" expanded="true" />
+            <element signature="e#2370#2371#0" expanded="true" />
+            <element signature="e#2410#2411#0" expanded="true" />
+            <element signature="e#2477#2478#0" expanded="true" />
+            <element signature="e#2517#2518#0" expanded="true" />
+            <element signature="e#2584#2585#0" expanded="true" />
+            <element signature="e#2624#2625#0" expanded="true" />
+            <element signature="e#2668#2669#0" expanded="true" />
+            <element signature="e#2704#2705#0" expanded="true" />
+            <element signature="e#2747#2748#0" expanded="true" />
+            <element signature="e#2777#2778#0" expanded="true" />
+            <element signature="e#2839#2840#0" expanded="true" />
+            <element signature="e#2883#2884#0" expanded="true" />
+            <element signature="e#2953#2954#0" expanded="true" />
+            <element signature="e#2999#3000#0" expanded="true" />
+            <element signature="e#3041#3042#0" expanded="true" />
+            <element signature="e#3075#3076#0" expanded="true" />
+            <element signature="e#3131#3132#0" expanded="true" />
+            <element signature="e#3175#3176#0" expanded="true" />
+            <element signature="e#3223#3224#0" expanded="true" />
+            <element signature="e#3257#3258#0" expanded="true" />
+            <element signature="e#3323#3324#0" expanded="true" />
+            <element signature="e#3367#3368#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/RecipeToRecipeCommandTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/repositories/UnitOfMeasureRepositoryIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/RecipeCommandToRecipeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/ingredientform.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="48" column="78" selection-start-line="48" selection-start-column="78" selection-end-line="48" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/IngredientServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/UnitOfMeasureCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/imageuploadform.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/UnitOfMeasureToUnitOfMeasureCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        <state relative-caret-position="238">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/ImageService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/CategoryToCategoryCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="289">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/IngredientServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/IngredientToIngredientCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="374">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/ImageServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/NotesToNotesCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="272">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/converters/RecipeToRecipeCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+        <state relative-caret-position="347">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/CategoryCommandToCategoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/IngredientCommandToIngredientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-578">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/IngredientToIngredientCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/NotesCommandToNotesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/RecipeCommandToRecipeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/RecipeAppApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/repositories/UnitOfMeasureRepositoryIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/RecipeServiceIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -963,234 +1673,271 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/RecipeAppApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/converters/UnitOfMeasureCommandToUnitOfMeasureTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="387">
+          <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/IngredientServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IngredientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/ImageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/ImageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/UnitOfMeasureServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/RecipeServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="78" column="7" lean-forward="true" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+        <state relative-caret-position="429">
+          <caret line="81" column="53" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="85" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/exceptions/NotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/400error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
+        <state relative-caret-position="-737" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/404error.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/400error.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/ImageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="45">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/ControllerExceptionHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/CategoryCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="221">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/IngredientControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/NotesCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        <state relative-caret-position="153">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/ImageControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        <state relative-caret-position="44">
+          <caret line="69" column="56" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/services/RecipeServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="85" column="73" selection-start-line="85" selection-start-column="73" selection-end-line="85" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/RecipeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/CategoryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/repositories/UnitOfMeasureRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/ControllerExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Recipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Ingredient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="71" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="71" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/imageuploadform.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/ingredientform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="46" column="79" lean-forward="true" selection-start-line="46" selection-start-column="79" selection-end-line="46" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/domain/UnitOfMeasure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/IngredientCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="47" column="100" selection-start-line="47" selection-start-column="100" selection-end-line="47" selection-end-column="100" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/IngredientServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/services/RecipeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/commands/RecipeCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/RecipeControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="125" column="61" lean-forward="true" selection-start-line="125" selection-start-column="61" selection-end-line="125" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/RecipeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-157">
-          <caret line="52" column="61" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
+        <state relative-caret-position="406">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2566#2567#0" expanded="true" />
+            <element signature="e#2613#2614#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/recipeform.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+        <state relative-caret-position="-2805">
+          <folding>
+            <element signature="e#2#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_pl_PL.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en_GB.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/RecipeAppApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="408">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/bootstrap/RecipeBootstrap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/IngredientController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="374">
+          <caret line="86" column="26" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netherwulf/springframework/recipeapp/controllers/RecipeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/06611bd3-4d78-4209-929f-6a58a8fbcb86/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scripts/configure-mysql.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        <state relative-caret-position="272">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/IngredientControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+        <state relative-caret-position="191">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/netherwulf/springframework/recipeapp/controllers/RecipeControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codecov.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="191">
+          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
         </state>
       </provider>
     </entry>

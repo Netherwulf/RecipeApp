@@ -1,38 +1,23 @@
 package netherwulf.springframework.recipeapp.domain;
 
-import javax.persistence.*;
+import org.springframework.data.annotation.Id;
 
-@Entity
 public class Notes {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    @OneToOne
-    private Recipe recipe;
-
-    @Lob
+    private String id;
     private String recipeNotes;
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public Recipe getRecipe() {
-        return recipe;
-    }
-
-    public void setRecipe(Recipe recipe) {
-        this.recipe = recipe;
+    public String getId() {
+        return this.id;
     }
 
     public String getRecipeNotes() {
-        return recipeNotes;
+        return this.recipeNotes;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public void setRecipeNotes(String recipeNotes) {

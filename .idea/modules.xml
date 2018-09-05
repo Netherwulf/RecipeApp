@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Spring_Recipe_App.iml" filepath="$PROJECT_DIR$/Spring_Recipe_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RecipeApp.iml" filepath="$PROJECT_DIR$/.idea/modules/RecipeApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RecipeApp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/RecipeApp_main.iml" group="RecipeApp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RecipeApp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/RecipeApp_test.iml" group="RecipeApp" />
     </modules>
   </component>
 </project>

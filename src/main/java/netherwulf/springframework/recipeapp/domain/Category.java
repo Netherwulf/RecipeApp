@@ -1,38 +1,39 @@
 package netherwulf.springframework.recipeapp.domain;
 
-import javax.persistence.*;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import java.util.Set;
 
-@Entity
+@Document
 public class Category {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
+    private String id;
     private String description;
 
-    @ManyToMany(mappedBy = "categories")
+    @DBRef
     private Set<Recipe> recipes;
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
+    public String getId() {
+        return this.id;
     }
 
     public String getDescription() {
-        return description;
+        return this.description;
+    }
+
+    public Set<Recipe> getRecipes() {
+        return this.recipes;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public Set<Recipe> getRecipes() {
-        return recipes;
     }
 
     public void setRecipes(Set<Recipe> recipes) {

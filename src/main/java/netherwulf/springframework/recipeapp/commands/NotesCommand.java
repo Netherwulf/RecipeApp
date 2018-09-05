@@ -1,13 +1,25 @@
 package netherwulf.springframework.recipeapp.commands;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
-@Getter
-@Setter
-@NoArgsConstructor
 public class NotesCommand {
-    private Long id;
+    private String id;
     private String recipeNotes;
+
+    public NotesCommand() {
+    }
+
+    public String getId() {
+        return this.id;
+    }
+
+    public String getRecipeNotes() {
+        return this.recipeNotes;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setRecipeNotes(String recipeNotes) {
+        this.recipeNotes = recipeNotes;
+    }
 }

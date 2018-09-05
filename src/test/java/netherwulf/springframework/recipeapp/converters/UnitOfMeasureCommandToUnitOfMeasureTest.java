@@ -1,5 +1,6 @@
 package netherwulf.springframework.recipeapp.converters;
 
+
 import netherwulf.springframework.recipeapp.commands.UnitOfMeasureCommand;
 import netherwulf.springframework.recipeapp.domain.UnitOfMeasure;
 import org.junit.Before;
@@ -15,26 +16,26 @@ public class UnitOfMeasureCommandToUnitOfMeasureTest {
     UnitOfMeasureCommandToUnitOfMeasure converter;
 
     @Before
-    public void setUp() {
+    public void setUp() throws Exception {
         converter = new UnitOfMeasureCommandToUnitOfMeasure();
 
     }
 
     @Test
-    public void testNullParamter() {
+    public void testNullParamter() throws Exception {
         assertNull(converter.convert(null));
     }
 
     @Test
-    public void testEmptyObject() {
+    public void testEmptyObject() throws Exception {
         assertNotNull(converter.convert(new UnitOfMeasureCommand()));
     }
 
     @Test
-    public void convert() {
+    public void convert() throws Exception {
         //given
         UnitOfMeasureCommand command = new UnitOfMeasureCommand();
-        command.setId(LONG_VALUE);
+        command.setId(String.valueOf(LONG_VALUE));
         command.setDescription(DESCRIPTION);
 
         //when
@@ -42,7 +43,7 @@ public class UnitOfMeasureCommandToUnitOfMeasureTest {
 
         //then
         assertNotNull(uom);
-        assertEquals(LONG_VALUE, uom.getId());
+        assertEquals(String.valueOf(LONG_VALUE), uom.getId());
         assertEquals(DESCRIPTION, uom.getDescription());
 
     }

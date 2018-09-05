@@ -2,6 +2,7 @@ package netherwulf.springframework.recipeapp.converters;
 
 import netherwulf.springframework.recipeapp.commands.IngredientCommand;
 import netherwulf.springframework.recipeapp.commands.UnitOfMeasureCommand;
+import netherwulf.springframework.recipeapp.converters.IngredientCommandToIngredient;
 import netherwulf.springframework.recipeapp.domain.Ingredient;
 import netherwulf.springframework.recipeapp.domain.Recipe;
 import org.junit.Before;
@@ -16,28 +17,28 @@ public class IngredientCommandToIngredientTest {
     public static final Recipe RECIPE = new Recipe();
     public static final BigDecimal AMOUNT = new BigDecimal("1");
     public static final String DESCRIPTION = "Cheeseburger";
-    public static final Long ID_VALUE = 1L;
-    public static final Long UOM_ID = 2L;
+    public static final String ID_VALUE = "1";
+    public static final String UOM_ID = "2";
 
     IngredientCommandToIngredient converter;
 
     @Before
-    public void setUp() {
+    public void setUp() throws Exception {
         converter = new IngredientCommandToIngredient(new UnitOfMeasureCommandToUnitOfMeasure());
     }
 
     @Test
-    public void testNullObject() {
+    public void testNullObject() throws Exception {
         assertNull(converter.convert(null));
     }
 
     @Test
-    public void testEmptyObject() {
+    public void testEmptyObject() throws Exception {
         assertNotNull(converter.convert(new IngredientCommand()));
     }
 
     @Test
-    public void convert() {
+    public void convert() throws Exception {
         //given
         IngredientCommand command = new IngredientCommand();
         command.setId(ID_VALUE);
@@ -52,15 +53,15 @@ public class IngredientCommandToIngredientTest {
 
         //then
         assertNotNull(ingredient);
-        assertNotNull(ingredient.getUnitOfMeasure());
+        assertNotNull(ingredient.getUom());
         assertEquals(ID_VALUE, ingredient.getId());
         assertEquals(AMOUNT, ingredient.getAmount());
         assertEquals(DESCRIPTION, ingredient.getDescription());
-        assertEquals(UOM_ID, ingredient.getUnitOfMeasure().getId());
+        assertEquals(UOM_ID, ingredient.getUom().getId());
     }
 
     @Test
-    public void convertWithNullUOM() {
+    public void convertWithNullUOM() throws Exception {
         //given
         IngredientCommand command = new IngredientCommand();
         command.setId(ID_VALUE);
@@ -74,11 +75,10 @@ public class IngredientCommandToIngredientTest {
 
         //then
         assertNotNull(ingredient);
-        assertNull(ingredient.getUnitOfMeasure());
+        assertNull(ingredient.getUom());
         assertEquals(ID_VALUE, ingredient.getId());
         assertEquals(AMOUNT, ingredient.getAmount());
         assertEquals(DESCRIPTION, ingredient.getDescription());
-
     }
 
 }

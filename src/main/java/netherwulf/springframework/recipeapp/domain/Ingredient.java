@@ -1,35 +1,31 @@
 package netherwulf.springframework.recipeapp.domain;
 
-import javax.persistence.*;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
+
 import java.math.BigDecimal;
 
-//@Data //usage of Project Lombok
-@Entity
+
 public class Ingredient {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
+    private String id;
     private String description;
     private BigDecimal amount;
 
-    @OneToOne(fetch = FetchType.EAGER)
-    private UnitOfMeasure unitOfMeasure;
-
-    @ManyToOne
-    private Recipe recipe;
+    @DBRef
+    private UnitOfMeasure uom;
 
     public Ingredient() {
     }
 
-    public Ingredient(String description, BigDecimal amount, UnitOfMeasure unitOfMeasure) {
+    public Ingredient(String description, BigDecimal amount, UnitOfMeasure uom) {
         this.description = description;
         this.amount = amount;
-        this.unitOfMeasure = unitOfMeasure;
+        this.uom = uom;
     }
 
-    public Long getId() {
+    public String getId() {
         return this.id;
     }
 
@@ -41,15 +37,12 @@ public class Ingredient {
         return this.amount;
     }
 
-    public UnitOfMeasure getUnitOfMeasure() {
-        return this.unitOfMeasure;
+    public UnitOfMeasure getUom() {
+        return this.uom;
     }
 
-    public Recipe getRecipe() {
-        return this.recipe;
-    }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -61,11 +54,8 @@ public class Ingredient {
         this.amount = amount;
     }
 
-    public void setUnitOfMeasure(UnitOfMeasure unitOfMeasure) {
-        this.unitOfMeasure = unitOfMeasure;
+    public void setUom(UnitOfMeasure uom) {
+        this.uom = uom;
     }
 
-    public void setRecipe(Recipe recipe) {
-        this.recipe = recipe;
-    }
 }

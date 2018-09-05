@@ -1,8 +1,8 @@
 package netherwulf.springframework.recipeapp.services;
 
-import lombok.extern.slf4j.Slf4j;
 import netherwulf.springframework.recipeapp.domain.Recipe;
 import netherwulf.springframework.recipeapp.repositories.RecipeRepository;
+import org.slf4j.Logger;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
@@ -10,9 +10,9 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 
 @Service
-@Slf4j
 public class ImageServiceImpl implements ImageService {
 
+    private static final Logger log = org.slf4j.LoggerFactory.getLogger(ImageServiceImpl.class);
     private final RecipeRepository recipeRepository;
 
     public ImageServiceImpl(RecipeRepository recipeRepository) {
@@ -25,7 +25,7 @@ public class ImageServiceImpl implements ImageService {
 
         try {
 
-            Recipe recipe = recipeRepository.findById(id).get();
+            Recipe recipe = recipeRepository.findById(String.valueOf(id)).get();
 
             Byte[] byteObjects = new Byte[file.getBytes().length];
 

@@ -1,35 +1,39 @@
 package netherwulf.springframework.recipeapp.converters;
 
 import netherwulf.springframework.recipeapp.commands.CategoryCommand;
+import netherwulf.springframework.recipeapp.converters.CategoryToCategoryCommand;
 import netherwulf.springframework.recipeapp.domain.Category;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+/**
+ * Created by jt on 6/21/17.
+ */
 public class CategoryToCategoryCommandTest {
 
-    public static final Long ID_VALUE = 1L;
+    public static final String ID_VALUE = "1";
     public static final String DESCRIPTION = "descript";
     CategoryToCategoryCommand convter;
 
     @Before
-    public void setUp() {
+    public void setUp() throws Exception {
         convter = new CategoryToCategoryCommand();
     }
 
     @Test
-    public void testNullObject() {
+    public void testNullObject() throws Exception {
         assertNull(convter.convert(null));
     }
 
     @Test
-    public void testEmptyObject() {
+    public void testEmptyObject() throws Exception {
         assertNotNull(convter.convert(new Category()));
     }
 
     @Test
-    public void convert() {
+    public void convert() throws Exception {
         //given
         Category category = new Category();
         category.setId(ID_VALUE);

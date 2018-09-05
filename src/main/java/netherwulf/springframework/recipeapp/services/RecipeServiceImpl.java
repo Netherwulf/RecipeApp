@@ -1,12 +1,12 @@
 package netherwulf.springframework.recipeapp.services;
 
-import lombok.extern.slf4j.Slf4j;
 import netherwulf.springframework.recipeapp.commands.RecipeCommand;
 import netherwulf.springframework.recipeapp.converters.RecipeCommandToRecipe;
 import netherwulf.springframework.recipeapp.converters.RecipeToRecipeCommand;
 import netherwulf.springframework.recipeapp.domain.Recipe;
 import netherwulf.springframework.recipeapp.exceptions.NotFoundException;
 import netherwulf.springframework.recipeapp.repositories.RecipeRepository;
+import org.slf4j.Logger;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -15,9 +15,9 @@ import java.util.Optional;
 import java.util.Set;
 
 @Service
-@Slf4j
 public class RecipeServiceImpl implements RecipeService {
 
+    private static final Logger log = org.slf4j.LoggerFactory.getLogger(RecipeServiceImpl.class);
     private final RecipeRepository recipeRepository;
     private final RecipeToRecipeCommand recipeToRecipeCommand;
     private final RecipeCommandToRecipe recipeCommandToRecipe;
@@ -41,7 +41,7 @@ public class RecipeServiceImpl implements RecipeService {
     }
 
     @Override
-    public Recipe findById(Long id) {
+    public Recipe findById(String id) {
 
         Optional<Recipe> recipeOptional = recipeRepository.findById(id);
 
@@ -54,7 +54,7 @@ public class RecipeServiceImpl implements RecipeService {
 
     @Override
     @Transactional
-    public RecipeCommand findCommandById(Long id) {
+    public RecipeCommand findCommandById(String id) {
         return recipeToRecipeCommand.convert(findById(id));
     }
 
@@ -69,7 +69,7 @@ public class RecipeServiceImpl implements RecipeService {
     }
 
     @Override
-    public void deleteById(Long id) {
+    public void deleteById(String id) {
         recipeRepository.deleteById(id);
     }
 }

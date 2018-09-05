@@ -4,6 +4,8 @@ import netherwulf.springframework.recipeapp.commands.UnitOfMeasureCommand;
 import netherwulf.springframework.recipeapp.converters.UnitOfMeasureToUnitOfMeasureCommand;
 import netherwulf.springframework.recipeapp.domain.UnitOfMeasure;
 import netherwulf.springframework.recipeapp.repositories.UnitOfMeasureRepository;
+import netherwulf.springframework.recipeapp.services.UnitOfMeasureService;
+import netherwulf.springframework.recipeapp.services.UnitOfMeasureServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
@@ -24,22 +26,22 @@ public class UnitOfMeasureServiceImplTest {
     UnitOfMeasureRepository unitOfMeasureRepository;
 
     @Before
-    public void setUp() {
+    public void setUp() throws Exception {
         MockitoAnnotations.initMocks(this);
 
         service = new UnitOfMeasureServiceImpl(unitOfMeasureRepository, unitOfMeasureToUnitOfMeasureCommand);
     }
 
     @Test
-    public void listAllUoms() {
+    public void listAllUoms() throws Exception {
         //given
         Set<UnitOfMeasure> unitOfMeasures = new HashSet<>();
         UnitOfMeasure uom1 = new UnitOfMeasure();
-        uom1.setId(1L);
+        uom1.setId("1");
         unitOfMeasures.add(uom1);
 
         UnitOfMeasure uom2 = new UnitOfMeasure();
-        uom2.setId(2L);
+        uom2.setId("2");
         unitOfMeasures.add(uom2);
 
         when(unitOfMeasureRepository.findAll()).thenReturn(unitOfMeasures);
